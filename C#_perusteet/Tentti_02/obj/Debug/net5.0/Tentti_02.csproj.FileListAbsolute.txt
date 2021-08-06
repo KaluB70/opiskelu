@@ -1,0 +1,16 @@
+C:\Users\Kalle\Desktop\Koulu\C#\Tentit\Tentti_02\bin\Debug\net5.0\Tentti_02.exe
+C:\Users\Kalle\Desktop\Koulu\C#\Tentit\Tentti_02\bin\Debug\net5.0\Tentti_02.deps.json
+C:\Users\Kalle\Desktop\Koulu\C#\Tentit\Tentti_02\bin\Debug\net5.0\Tentti_02.runtimeconfig.json
+C:\Users\Kalle\Desktop\Koulu\C#\Tentit\Tentti_02\bin\Debug\net5.0\Tentti_02.runtimeconfig.dev.json
+C:\Users\Kalle\Desktop\Koulu\C#\Tentit\Tentti_02\bin\Debug\net5.0\Tentti_02.dll
+C:\Users\Kalle\Desktop\Koulu\C#\Tentit\Tentti_02\bin\Debug\net5.0\ref\Tentti_02.dll
+C:\Users\Kalle\Desktop\Koulu\C#\Tentit\Tentti_02\bin\Debug\net5.0\Tentti_02.pdb
+C:\Users\Kalle\Desktop\Koulu\C#\Tentit\Tentti_02\obj\Debug\net5.0\Tentti_02.csprojAssemblyReference.cache
+C:\Users\Kalle\Desktop\Koulu\C#\Tentit\Tentti_02\obj\Debug\net5.0\Tentti_02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kalle\Desktop\Koulu\C#\Tentit\Tentti_02\obj\Debug\net5.0\Tentti_02.AssemblyInfoInputs.cache
+C:\Users\Kalle\Desktop\Koulu\C#\Tentit\Tentti_02\obj\Debug\net5.0\Tentti_02.AssemblyInfo.cs
+C:\Users\Kalle\Desktop\Koulu\C#\Tentit\Tentti_02\obj\Debug\net5.0\Tentti_02.csproj.CoreCompileInputs.cache
+C:\Users\Kalle\Desktop\Koulu\C#\Tentit\Tentti_02\obj\Debug\net5.0\Tentti_02.dll
+C:\Users\Kalle\Desktop\Koulu\C#\Tentit\Tentti_02\obj\Debug\net5.0\ref\Tentti_02.dll
+C:\Users\Kalle\Desktop\Koulu\C#\Tentit\Tentti_02\obj\Debug\net5.0\Tentti_02.pdb
+C:\Users\Kalle\Desktop\Koulu\C#\Tentit\Tentti_02\obj\Debug\net5.0\Tentti_02.genruntimeconfig.cache

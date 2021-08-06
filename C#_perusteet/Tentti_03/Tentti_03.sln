@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tentti_03", "Tentti_03.csproj", "{342A2CB5-1FC0-4494-BD24-F85E1CFF599A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{342A2CB5-1FC0-4494-BD24-F85E1CFF599A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{342A2CB5-1FC0-4494-BD24-F85E1CFF599A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{342A2CB5-1FC0-4494-BD24-F85E1CFF599A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{342A2CB5-1FC0-4494-BD24-F85E1CFF599A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE557DA0-2553-4D2C-B67E-E9F61611DAC4}
+	EndGlobalSection
+EndGlobal
