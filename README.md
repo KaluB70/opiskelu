@@ -1,2 +1,2 @@
 # opiskelu
-Opintijeni aikana tehdyt tentit/harjoitukset/tehtävät
+Opintojeni aikana tehdyt tentit/harjoitukset/tehtävät
