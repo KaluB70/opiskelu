@@ -1,0 +1,13 @@
+C:\Users\Kalle\source\repos\Tentti03\bin\Debug\netcoreapp3.1\Tentti03.exe
+C:\Users\Kalle\source\repos\Tentti03\bin\Debug\netcoreapp3.1\Tentti03.deps.json
+C:\Users\Kalle\source\repos\Tentti03\bin\Debug\netcoreapp3.1\Tentti03.runtimeconfig.json
+C:\Users\Kalle\source\repos\Tentti03\bin\Debug\netcoreapp3.1\Tentti03.runtimeconfig.dev.json
+C:\Users\Kalle\source\repos\Tentti03\bin\Debug\netcoreapp3.1\Tentti03.dll
+C:\Users\Kalle\source\repos\Tentti03\bin\Debug\netcoreapp3.1\Tentti03.pdb
+C:\Users\Kalle\source\repos\Tentti03\obj\Debug\netcoreapp3.1\Tentti03.csprojAssemblyReference.cache
+C:\Users\Kalle\source\repos\Tentti03\obj\Debug\netcoreapp3.1\Tentti03.AssemblyInfoInputs.cache
+C:\Users\Kalle\source\repos\Tentti03\obj\Debug\netcoreapp3.1\Tentti03.AssemblyInfo.cs
+C:\Users\Kalle\source\repos\Tentti03\obj\Debug\netcoreapp3.1\Tentti03.csproj.CoreCompileInputs.cache
+C:\Users\Kalle\source\repos\Tentti03\obj\Debug\netcoreapp3.1\Tentti03.dll
+C:\Users\Kalle\source\repos\Tentti03\obj\Debug\netcoreapp3.1\Tentti03.pdb
+C:\Users\Kalle\source\repos\Tentti03\obj\Debug\netcoreapp3.1\Tentti03.genruntimeconfig.cache

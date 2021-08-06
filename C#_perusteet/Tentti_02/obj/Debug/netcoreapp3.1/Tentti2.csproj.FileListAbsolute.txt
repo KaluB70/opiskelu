@@ -1,0 +1,13 @@
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\Tentti2\bin\Debug\netcoreapp3.1\Tentti2.exe
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\Tentti2\bin\Debug\netcoreapp3.1\Tentti2.deps.json
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\Tentti2\bin\Debug\netcoreapp3.1\Tentti2.runtimeconfig.json
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\Tentti2\bin\Debug\netcoreapp3.1\Tentti2.runtimeconfig.dev.json
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\Tentti2\bin\Debug\netcoreapp3.1\Tentti2.dll
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\Tentti2\bin\Debug\netcoreapp3.1\Tentti2.pdb
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\Tentti2\obj\Debug\netcoreapp3.1\Tentti2.csprojAssemblyReference.cache
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\Tentti2\obj\Debug\netcoreapp3.1\Tentti2.AssemblyInfoInputs.cache
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\Tentti2\obj\Debug\netcoreapp3.1\Tentti2.AssemblyInfo.cs
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\Tentti2\obj\Debug\netcoreapp3.1\Tentti2.csproj.CoreCompileInputs.cache
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\Tentti2\obj\Debug\netcoreapp3.1\Tentti2.dll
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\Tentti2\obj\Debug\netcoreapp3.1\Tentti2.pdb
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\Tentti2\obj\Debug\netcoreapp3.1\Tentti2.genruntimeconfig.cache

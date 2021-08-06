@@ -1,0 +1,13 @@
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\ISBN-numerot\bin\Debug\netcoreapp3.1\Tentti01.exe
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\ISBN-numerot\bin\Debug\netcoreapp3.1\Tentti01.deps.json
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\ISBN-numerot\bin\Debug\netcoreapp3.1\Tentti01.runtimeconfig.json
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\ISBN-numerot\bin\Debug\netcoreapp3.1\Tentti01.runtimeconfig.dev.json
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\ISBN-numerot\bin\Debug\netcoreapp3.1\Tentti01.dll
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\ISBN-numerot\bin\Debug\netcoreapp3.1\Tentti01.pdb
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\ISBN-numerot\obj\Debug\netcoreapp3.1\Tentti01.csprojAssemblyReference.cache
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\ISBN-numerot\obj\Debug\netcoreapp3.1\Tentti01.AssemblyInfoInputs.cache
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\ISBN-numerot\obj\Debug\netcoreapp3.1\Tentti01.AssemblyInfo.cs
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\ISBN-numerot\obj\Debug\netcoreapp3.1\Tentti01.csproj.CoreCompileInputs.cache
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\ISBN-numerot\obj\Debug\netcoreapp3.1\Tentti01.dll
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\ISBN-numerot\obj\Debug\netcoreapp3.1\Tentti01.pdb
+C:\Users\Kalle\Desktop\Koulu\Olio-Ohjelmointi\ISBN-numerot\obj\Debug\netcoreapp3.1\Tentti01.genruntimeconfig.cache
