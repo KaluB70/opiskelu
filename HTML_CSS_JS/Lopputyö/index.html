@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Source Code Pro', monospace;
+            margin:0;
+            padding:0;
+            width: 100%;
+            overflow-x: hidden;
+        }
+        ul li{
+            float:left;
+            list-style-type: none;
+            margin-right:15px;
+            font-size: 1em;
+        }
+        main{
+            margin-top: -65px;
+        }
+        #logo-nav{
+            background: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)), url(images/pexels-quang-nguyen-vinh-2175952.jpg) no-repeat top;
+            z-index: -1;
+            background-size: 310% 280%;
+            background-position: center top -210px;
+            height: 360px;
+            width: 100%;
+            background-attachment: fixed;
+        }
+        #valikko span{
+            background-color: black;
+            height: 3px;
+            width: 22px;
+            display: block;
+            margin: 5px;
+            opacity: 1;
+        }
+        #valikko{
+            display:block;
+            color: #ffffff;
+            width:65px;
+            text-align:center;
+            padding: 5px;
+        }
+        #menu{
+            display:none;
+        }
+        #menu ul{
+            display:inline-grid;
+            padding-left:0px;
+            margin: 0;
+        }
+        #menu ul li{
+            display:block;
+            border: 1px solid #aaaaaa;
+            width: 320px;
+            height: 40px;
+            text-align:center;
+            color: #0c0c0cb4;
+            font-size:0.8em;
+            line-height:40px;
+            background-color:#cacaca;
+        }
+        #menu ul #contact{
+            color: white;
+            background-color:rgb(255, 0, 0);
+        }
+        #design{
+            background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(images/pexels-quang-nguyen-vinh-2175952.jpg) no-repeat top;
+            background-position: center top -650px;
+            background-attachment: fixed;
+            z-index:0;
+            width:100%;
+            top:0;
+        }
+        .crosshair{
+            background:url("images/crosshairs-solid.svg") no-repeat top;
+            height:600px;
+            position:absolute;
+            width: 320px;
+            filter: invert(100%);
+            z-index:1;
+            opacity:0.1;
+            background-size: 600px 610px;
+            background-position: 59%;
+        }
+        #design h1{
+            font-size:4em;
+            color: #ffffff;
+            margin-left:20%;
+            margin-top: 58px;
+        }
+        #design h2{
+            font-size:2.8em;
+            margin-top: -23%;
+            color:red;
+            margin-left: 24%;
+        }
+        #design p{
+            color: rgba(255, 255, 255, 0.637);
+            margin-left: 7px;
+            font-size: 1.2em;
+            font-family: 'Montserrat', sans-serif;
+        }
+        #design ul{
+            color: rgba(255, 255, 255, 0.637);
+            list-style: none;
+            font-family: 'Montserrat', sans-serif;
+        }
+        #design ul li{
+            margin:4px;
+            border-bottom: 1px solid rgba(160, 160, 160, 0.1);
+            width: 260px;
+        }
+        #design ul li::before{
+            content: "•";
+            color: white;
+            display: inline-block;
+            width: 1em;
+            padding-right: 1em;
+            font-family: 'Montserrat', sans-serif;
+        }
+        #design #source{
+            padding-top:225px;
+            padding-bottom:20px;
+            margin-bottom: -50px;
+        }
+        #design1{
+            width:100%;
+            background-color: black;
+            height: auto;
+        }
+        #design1 h3{
+            color:white;
+            font-size:3em;
+            font-family: 'Montserrat', sans-serif;
+            text-align:center;
+            padding-top:20px;
+        }
+        .grid-container{
+            margin-left:15px;
+            display:inline-grid;
+            width: 100%;
+            grid-template-columns: 138px 138px;
+            grid-template-rows: 138px 138px auto;
+            row-gap: 15px;
+            column-gap: 15px;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .grid1, .grid2, .grid3, .grid4{
+            float: left;
+            display: block;
+            text-align: center;
+            padding-top:35%;
+            font-size: 1.1em;
+            color: white;
+        }
+        .grid1{
+            background:#8C2122;
+        }
+        .grid2{
+            background:#960340;
+        }
+        .grid3{
+            background:#293773;
+        }
+        .grid4{
+            background:#412872;
+        }
+        .grid_levea{
+            float:left;
+            display: block;
+            height: 35px;
+            width: 276px;
+            padding-left:15px;
+            padding-top:15px;
+            color: white;
+            background:#FD0014;
+        }
+        iframe{
+            padding-top: 20px;
+            width:100%;
+            margin-right: -2px;
+        }
+        #design2 {
+            width: 100%;
+            background: linear-gradient(rgba(255, 255, 255, 0.541), rgba(255, 255, 255, 0.541)), url(images/pexels-andreea-ch-3969099.jpg) no-repeat top;
+            background-size: 1600px 1148px;
+            background-position: 67%;
+            height:800px;
+            font-family: 'Montserrat', sans-serif;
+            color:#303B41;
+            padding-top: 1px;
+        }
+        #design2 h1{
+            color:#303B41;
+            text-align: center;
+            font-size:2.7em;
+            padding-bottom: 140px;
+            line-height: 1.2em;
+        }
+        #points{
+            font-size:2em;
+        }
+        #lorem{
+            opacity: 0.8;
+            font-size:1.1em;
+        }
+        #rightthing{
+            font-size:1.2em;
+            font-weight:bold;
+            margin-bottom:-60px;
+        }
+        #thingright{
+            font-size:1.2em;
+            font-weight:bold;
+            margin-top:-10px;
+        }
+        #VS{
+            padding-top:50px;
+        }
+        #aboutus{
+            height:568px;
+        }
+        #aboutus h1{
+            color:white;
+            font-size:3em;
+            font-family: 'Montserrat', sans-serif;
+            text-align:center;
+            padding-top:35px;
+        }
+        .grid-cont{
+            padding-top:35px;
+            margin-left:15px;
+            display:inline-grid;
+            width: 100%;
+            grid-template-columns: 130px 130px;
+            grid-template-rows: 130px 130px;
+            row-gap: 30px;
+            column-gap: 30px;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .grid-item1, .grid-item2, .grid-item3, .grid-item4{
+            float: left;
+            display: block;
+            text-align: left;
+            padding-top:35%;
+            font-size: 1.15em;
+            color: white;
+            padding-left: 15px;
+        }
+        .grid-item1{
+            background:linear-gradient(rgba(158, 35, 35, 0.7), rgba(158, 35, 35, 0.7)), url(images/pexels-italo-melo-2379005.jpg) no-repeat;
+            background-size: 177px 210px;
+            background-position: 37% 55%;
+            color: white;
+        }
+        .grid-item2{
+            background:linear-gradient(rgba(150,3,64,0.7), rgba(150,3,64,0.7)), url(images/pexels-andrea-piacquadio-3831645.jpg) no-repeat;
+            background-size: 177px 210px;
+            background-position: 37% 55%;
+            color: white;
+        }
+        .grid-item3{
+            background:linear-gradient(rgba(41,55,115,0.7), rgba(41,55,115,0.7)), url(images/pexels-tain�-bernard-3482526.jpg) no-repeat;
+            background-size: 173px 256px;
+            background-position: 62% 48%;
+            color: white;
+        }
+        .grid-item4{
+            background:linear-gradient(rgba(65,40,114,0.7), rgba(65,40,114,0.7)), url(images/pexels-simon-robben-614810.jpg) no-repeat;
+            background-size: 167px 136px;
+            background-position: 52% 48%;
+            color: white;
+        }
+        .grid-item1:hover{
+            background:url(images/pexels-italo-melo-2379005.jpg) no-repeat;
+            background-size: 177px 210px;
+            background-position: 37% 55%;
+            color: transparent;
+        }
+        .grid-item2:hover{
+            background:url(images/pexels-andrea-piacquadio-3831645.jpg) no-repeat;
+            background-size: 177px 210px;
+            background-position: 37% 55%;
+            color: transparent;
+        }
+        .grid-item3:hover{
+            background:url(images/pexels-tain�-bernard-3482526.jpg) no-repeat;
+            background-size: 173px 256px;
+            background-position: 62% 48%;
+            color: transparent;
+        }
+        .grid-item4:hover{
+            background:url(images/pexels-simon-robben-614810.jpg) no-repeat;
+            background-size: 167px 136px;
+            background-position: 52% 48%;
+            color: transparent;
+        }
+        #contactus{
+            background-color: rgb(253,0,20);
+            font-family: 'Montserrat', sans-serif;
+            height: 780px;
+        }
+        #contactus h1{
+            color: white;
+            text-align: center;
+            padding-top: 70px;
+            font-size: 3em;
+        }
+        form{
+            color: rgb(187, 187, 187);
+            font-size: 1.4em;
+        }
+        input{
+            margin-left:5px;
+            width: 300px;
+            height: 55px;
+            background-color: rgba(253,26,44);
+            border: 2px solid white;
+        }
+        form #name,#email,#phone{
+            margin-bottom: 25px;
+            margin-top:25px;
+        }
+        form #newsletter{
+            height: 15px;
+            width: auto;
+        }
+        footer{
+            margin-top: -28px;
+            height: 568px;
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/pexels-burst-373893.jpg) no-repeat top;
+            width: 100%;
+            font-family: 'Montserrat', sans-serif;
+            background-position: -470px -200px;
+            background-size: auto auto;
+        }
+        footer h1{
+            color: white;
+            text-align: center;
+            padding-top: 25px;
+            padding-bottom: 50px;
+            font-size: 2.6em;
+        }
+        #footer{
+            background-color: rgba(185, 185, 185, 0.6);
+            height: 280px;
+            padding-top: 40px;
+            padding-left:30px;
+        }
+        #source2{
+            color: white;
+            text-align: right;
+            margin-right: 15px;
+        }
+        #submit{
+            font-family: 'Arial', sans-serif;
+            display: block;
+            height:60px;
+            width: 60px;
+            border-radius: 50%;
+            color: white;
+            background-color: rgb(253,0,20);
+            float: right;
+            margin-right: 15px;
+            font-size: 1em;
+            margin-top:15px;
+        }
+        #submit:hover{
+            color: black;
+            background-color: white;
+        }
+        .otsikko{
+            font-family: 'Montserrat', sans-serif;
+            margin-bottom:0px;
+            font-size:1.2em;
+        }
+        .know{
+            background-color: red;
+            color: white;
+            padding:13px;
+            padding-right: 20px;
+            padding-left: 40px;
+            font-family: 'Source Code Pro', monospace;
+            font-size:1.2em;
+        }
+        .logo-container{
+            width: 360px;
+            position: relative;
+            height: 100px;
+            padding-top: 100px;
+            padding-left: 50px;
+            font-size: 1.3em;
+        }
+        .underline-i{
+            height: 10px;
+            border-bottom: 3px solid white;
+            color: white;
+            position:absolute;
+            margin-left: 19px;
+            font-size: 0.8em;
+            margin-top: 2px;
+            padding-bottom: 15px;
+            font-family: 'Source Code Pro', monospace;
+        }
+        .logo-container p{
+            font-size: 0.6em;
+            padding-left: 95px;
+            font-family: 'Montserrat', sans-serif;
+            color: rgb(90, 90, 90);
+        }
+        #footer .logo-container{
+            margin-top:-120px;
+            margin-left: -110px;
+        }
+        #footer .logo-container .otsikko{
+            padding-bottom: 4px;
+            color: black;
+        }
+        #footer .logo-container p{
+            color: rgb(17, 17, 17);
+            padding-left: 180px;
+        }
+        a:visited{
+                color: #0c0c0cb4;
+        }
+        a:visited #contact {
+            color:white;
+        }
+        @media screen and (min-width:321px){
+            body{
+                max-width: 1060px;
+                width: 100%;
+            }
+            .logo-container{
+                padding-left: 40%;
+                padding-top: 12%;
+            }
+            #valikko{
+                display: none;
+            }
+            #menu{
+                display: block;
+                position:sticky;
+                top:0;
+            }
+            #menu ul{
+                display:grid;
+                padding-left:0px;
+                margin: 0;
+                grid-row: 30px;
+                grid-template-columns: 20% 20% 20% 20% 20%;
+                max-width: 1060px;
+            }
+            #menu ul li{
+                display:block;
+                border: 1px solid #aaaaaa;
+                width: 99%;
+                height: 40px;
+                text-align:center;
+                color: #0c0c0cb4;
+                font-size:0.8em;
+                line-height:40px;
+                background-color:#cacaca;
+            }
+            #menu ul #contact{
+                color: white !important;
+                background-color:rgb(255, 0, 0) !important;
+            }
+            #design h2 {
+                margin-top: -7%;
+                margin-left: 57%;
+            }
+            #logo-nav{
+                background: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)), url(images/pexels-quang-nguyen-vinh-2175952.jpg) no-repeat top;
+                z-index: -1;
+                background-size: 100% 200%;
+                background-position: center top -210px;
+                height: 360px;
+                width: 100%;
+                background-attachment: fixed;
+            }
+            #design h1 {
+                margin-left: 56%;
+                padding-top: 11%;
+                margin-top: 65px;
+            }
+            #design2{
+                padding-top: 41px;
+            }
+            .crosshair{
+                overflow: hidden;
+                width: 800px;
+                height: 1000px;
+                background-position: -340% 27%;
+                background-size: 94%;
+                margin-top: 40px;
+                pointer-events: none;
+            }
+            #design{
+                height: 130vh;
+            }
+            #design p{
+                padding-left: 58%;
+                max-width: 25vw;
+            }
+            #design ul li{
+                float:left;
+                margin-left: 57%;
+            }
+            #design1{
+                margin-top: -48px;
+            }
+            #design1 h3{
+                padding-top:100px;
+            }
+            .grid-container{
+                padding-left: 34%;
+                row-gap: 40px;
+                column-gap: 40px;
+            }
+            .grid_levea{
+                width: 302px;
+            }
+            iframe{
+                margin-top:20vh;
+                height: 85vh;
+                width: 94%;
+                padding-left: 3%;
+            }
+            #design2 h1{
+                max-width: 35%;
+                padding-left: 35%;
+            }
+            #design2 h2{
+                margin-left: 15%;
+            }
+            #design2 {
+                width: 100%;
+                background: url(images/pexels-andreea-ch-3969099.jpg) no-repeat top, rgb(0,0,0);
+                background-size: 1581px 1138px;
+                background-position: 55% 93%;
+                height: 900px;
+                font-family: 'Montserrat', sans-serif;
+                color: #303B41;
+                padding-top: 1px;
+            }
+            #design2 p{
+                max-width: 39%;
+                margin-left: 15%;
+            }
+            .grid-cont {
+                padding-top: 35px;
+                margin-left: 33%;
+                display: inline-grid;
+                grid-template-columns: 180px 180px;
+                grid-template-rows: 180px 180px;
+                font-family: 'Montserrat', sans-serif;
+                gap: 0;
+                width: auto;
+            }
+            .grid-item1, .grid-item2, .grid-item3, .grid-item4 {
+                text-align: left;
+                padding-top: 46%;
+                font-size: 1.15em;
+                color: white;
+                padding-left: 8px;
+            }
+            .grid-item1 {
+                background-size: 222px 270px;
+            }
+            .grid-item2 {
+                background-size: 208px 240px;
+            }
+            .grid-item3{
+                background-size: 180px 263px;
+            }
+            .grid-item4{
+                background-size: 216px 186px;
+            }
+            .grid-item1:hover {
+                background-size: 222px 270px;
+            }
+            .grid-item2:hover {
+                background-size: 208px 240px;
+            }
+            .grid-item3:hover{
+                background-size: 180px 263px;
+            }
+            .grid-item4:hover{
+                background-size: 216px 186px;
+            }
+            form {
+                margin-left: 29%;
+                max-width: 42vw;
+            }
+            form input{
+                width: 435px;
+            }
+            footer{
+                height: 120vh;
+                background-position: -344px -30px;
+                background-size: 133%;
+                background-attachment: fixed;
+            }
+            footer h1{
+                padding-top:32%;
+            }
+            #footer{
+                position: sticky;
+                bottom: 30%;
+                background-color: white;
+                height: 24vh;
+                margin-top: 20%;
+            }
+           footer .logo-container{
+                margin-top: -34% !important;
+                margin-left:-3% !important;
+            }
+            #source2{
+                margin-top: -20%;
+            }
+            #submit{
+                float:left;
+                margin-left:390px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <nav id = "logo-nav">
+        <header id = "header-img">
+            <div id = "valikko">
+                <span></span>
+                <span id = "lyhennys"></span>
+                <span></span>
+            </div>
+            <div class = "logo-container">
+                <h1 class = "otsikko">
+                    <span class = "underline-i">I</span>
+                    <span class = "know">know</span>
+                    HTML
+                </h1>
+                <p>Also a little bit CSS</p>
+            </div>
+        </header>
+    </nav>
+    <nav id = "menu">
+        <ul>
+            <a href ="#logo-nav" style="text-decoration: none;"><li>Home</li></a>
+            <a href="#design" style="text-decoration: none;"><li>Thinking?</li></a>
+            <a href="#design2" style="text-decoration: none;"><li>DT in nutshell</li></a>
+            <a href="#aboutus" style="text-decoration: none;"><li>About us</li></a>
+            <a href="#contactus" style="text-decoration: none;"><li id = "contact">Contact</li></a>
+        </ul>
+    </nav>
+    <main>
+        <section id = "design">
+            <div class = "crosshair"></div>
+                <h1>Design</h1>
+                <h2>thinking</h2>
+                <p>Why is design thinking <br>important? <br> Design thinking enables organizations to create lasting value of consumers. <br> 
+                    The process is useful in any complex systems (not just design systems) because it: </p>
+                <ul>
+                    <li>Aims to solve a concrete human need</li>
+                    <li>Tackles problems that are ambiguous or difficult to define</li>
+                    <li>Leads to more innovative solutions</li>
+                    <li>Makes organizations run faster and more efficiently</li>
+                </ul>
+                <p id = "source">Source: wework.com</p>
+        </section>
+        <div id = "design1">
+            <h3>Design thinking</h3>
+            <div class = "grid-container">
+                <div class = "grid1">Technology feasibility</div>
+                <div class = "grid2">Business viability</div>
+                <div class = "grid3">People desirability</div>
+                <div class = "grid4">Sustainability viability</div>
+                <div class = "grid_levea">Innovation</div>
+            </div>
+        <iframe width="320" height="315" src="https://www.youtube.com/embed/-ySx-S5FcCI" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        <div id = "design2">
+            <h1>Design Thinking in nutshell</h1>
+            <h2 id = "points">Points</h2>
+            <p id = "lorem">Aperiam repellendus et reprehendit culpa nihil saepe ex debitis non quae<br><br> 
+                Aperiam repellendus et reprehendit culpa nihil saepe ex debitis non quae 
+                Aperiam repellendus et reprehendit culpa nihil saepe ex debitis non quae
+                Aperiam repellendus et reprehendit culpa nihil saepe ex debitis non quae</p>
+            <p id = "rightthing">Doing the right thing</p>
+            <p id = "VS">VS.</p>
+            <p id = "thingright">Doing the thing right</p>
+            </div>
+        <section id = "aboutus">
+            <h1>About us</h1>
+            <div class = "grid-cont">
+                <div class = "grid-item1">Mike Benson</div>
+                <div class = "grid-item2">Joe Forbidden</div>
+                <div class = "grid-item3">Maria Santos</div>
+                <div class = "grid-item4">Jorma Selkävuori</div>
+            </div>
+        </section>
+        <section id = "contactus">
+            <h1>Contact us</h1>
+            <form>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="phone">Phone</label><br>
+                <input type="number" id="phone" name="phone"><br>
+                <input type="checkbox" id="newsletter" name="newsletter" value="Newsletter">
+                <label for="newsletter">We will constantly bombard you with emails and it is ok to you?</label><br>
+                <input type="submit" id="submit" name="submit" value=">">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h1>Contact info</h1>
+        <div id = "footer">
+            <p>SATAKUNNAN AMMATTIKORKEAKOULU<br>Satakunnankatu 23<br>28130 Pori<br><br> (02) 620 3000</p>
+            <div class = "logo-container">
+                <h1 class = "otsikko">
+                    <span class = "underline-i">I</span>
+                    <span class = "know">know</span>
+                    HTML
+                </h1>
+                <p>Also a little bit CSS</p>
+            </div>
+        </div>
+        <p id = source2>Images from: https://www.pexels.com/</p>
+    </footer>
+    <script>
+        document.getElementById("valikko").addEventListener("click",function(){
+            if(document.getElementById("menu").style.display != "block"){
+                document.getElementById("menu").style.display = "block",
+                document.getElementById("lyhennys").style.width = "16px",
+                document.getElementById("lyhennys").style.background = "#ff3434";
+            }else{
+                document.getElementById("menu").style.display = "none";
+            }
+        });
+</script>
+</body>
+</html>
