@@ -1,0 +1,62 @@
+body{
+    background: gray;
+}
+#hakupalkki{
+    height: 250px;
+    margin: 50px;
+    background: yellow;
+    margin-top: 50px;
+    max-width: 91.5%;
+}
+#haku, #submit{
+    margin-top: 50px;
+    font-size: 4em;
+    height: 140px;
+}
+#haku{
+    margin-left: 5%;
+    width: 60%;
+}
+#submit{
+    margin-left: 5%;
+    width: 20%;
+    margin-top: 20px;
+}
+#vasen, #oikea{
+    float: left;
+    min-height: 500px;
+    width:44.1%;
+    background: yellow;
+    margin-left: 50px;
+}
+#ilmestynyt{
+    width: 250px;
+    height: 100px;
+    background: #fff;
+    text-align: center;
+    line-height:100px;
+    box-shadow: 0px 0px 11px 5px;
+}
+#close{
+    width: 25px;
+    height: 25px;
+    border-radius:50%;
+    background:red;
+    display: inline-block;
+    position:relative;
+    right: -54px;
+    top: -50px;
+    line-height:25px;
+    color: #fff;
+}
+#close:hover{
+    cursor:pointer;
+}
+#oikea a{
+    text-decoration: none;
+    font-size:3em;
+}
+#vasen a{
+    text-decoration: none;
+    font-size:2em;
+}
